@@ -36,31 +36,7 @@ h1{
     animation:float 6s ease-in-out infinite;
 }
 
-.one{
-    width:220px;
-    height:220px;
-    background:#ff4ecd;
-    top:60px;
-    left:120px;
-}
 
-.two{
-    width:260px;
-    height:260px;
-    background:#00d4ff;
-    bottom:70px;
-    right:100px;
-    animation-delay:2s;
-}
-
-@keyframes float{
-    0%,100%{
-        transform:translateY(0);
-    }
-    50%{
-        transform:translateY(-25px);
-    }
-}
 
 .message{
     text-align:center;
